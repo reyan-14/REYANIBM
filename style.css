@@ -7,6 +7,9 @@ p{
     color:hotpink;
 }
 
-body{
-    background-color:rgb(236, 17, 17);
+
+span{
+    width: 100px;
+    height: 100px;
+    background-color: darkkhaki;
 }
