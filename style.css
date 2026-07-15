@@ -3,13 +3,36 @@ h1{
 }
 
 p{
-    font-size: 180px;
+    font-size: 18px;
     color:hotpink;
 }
 
+.flex-container{
+    height: 400px;
+    background-color: pink;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
 
-span{
+.flex-item{
+    color: aliceblue;
+    background-color: rgb(225, 0, 225);
     width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+#itemA{
+    order: 2;
+    height: 200px;
+}
+
+#itemB{
+    order: 1;
+    align-self: flex-end;
     height: 100px;
-    background-color: darkkhaki;
 }
