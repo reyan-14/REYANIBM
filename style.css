@@ -45,3 +45,8 @@ table,td,th{
     border-collapse: collapse;
     text-align: center;
 }
+
+body{
+    background-color: wheat;
+    align-items: center;
+}
